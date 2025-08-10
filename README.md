@@ -1,5 +1,7 @@
 # Тестирование
 
+- Скачать архив и распаковать его (https://github.com/dracula6322/OpenMapByCoordinate/archive/refs/heads/main.zip)
+
 - Перейдите в chrome://extensions/. Для Яндекс.Браузера - browser://extensions/
 
 - Включите "Режим разработчика".

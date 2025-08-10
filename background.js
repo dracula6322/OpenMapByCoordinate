@@ -6,15 +6,16 @@ function isValidCoordinates(text) {
 
 // Создаем пункты меню
 chrome.runtime.onInstalled.addListener(() => {
+   
   chrome.contextMenus.create({
-    id: "openLonLat",
-    title: "Открыть (Долгота, Широта)",
+    id: "openLatLon",
+    title: "Открыть (Широта, Долгота)",
     contexts: ["selection"]
   });
   
   chrome.contextMenus.create({
-    id: "openLatLon",
-    title: "Открыть (Широта, Долгота)",
+    id: "openLonLat",
+    title: "Открыть (Долгота, Широта)",
     contexts: ["selection"]
   });
 });
